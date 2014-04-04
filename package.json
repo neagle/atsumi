@@ -1,0 +1,37 @@
+{
+	"name": "atsumi",
+	"description": "A static site generator for Nate Eagle.",
+	"version": "0.0.0",
+	"author": "Nate Eagle <nate@nateeagle.com>",
+	"keywords": [
+		"go",
+		"static",
+		"generator"
+	],
+	"bin": {
+		"atsumi": "./bin/atsumi"
+	},
+	"directories": {
+		"lib": "./lib/"
+	},
+	"bugs": {
+		"web": "https://github.com/neagle/atsumi/issues"
+	},
+	"repositories": [
+		{
+		"type": "git",
+		"url": "git@github.com:neagle/atsumi.git"
+	}
+	],
+	"licenses": [
+		{
+		"name": "MIT",
+		"url": "https://github.com/neagle/atsumi/blob/master/LICENSE"
+	}
+	],
+	"dependencies": {
+	},
+	"engine": {
+		"node": ">=0.10"
+	}
+}
